@@ -53,6 +53,7 @@ export default function Navbar() {
           src={'/cartoon-nobg.png'}
           width={100}
           height={100}
+          alt="developer-image"
         />
       </div>
 

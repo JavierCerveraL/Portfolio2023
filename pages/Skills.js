@@ -1,4 +1,4 @@
-import { Html, Head, Main, NextScript } from 'next/document';
+// import { Html, Head, Main, NextScript } from 'next/document';
 import React from 'react';
 
 import skill1 from '../public/skill1.png';
