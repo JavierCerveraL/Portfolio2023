@@ -10,7 +10,7 @@ import Image from 'next/image';
 export default function Navbar() {
   const menu = [
     { name: 'Home', link: '/', icon: BiHome },
-    { name: 'Who Am I', link: '/Me', icon: BiUserPin },
+    { name: 'About Me', link: '/Me', icon: BiUserPin },
     { name: 'Tools', link: '/Skills', icon: FaTools },
     { name: 'Projects', link: '/Projects', icon: BiCookie },
     { name: 'Contact Me', link: '/Contact', icon: BiChat },
@@ -21,21 +21,12 @@ export default function Navbar() {
     // navbar
     <div
       className={`text-gray-50 bg-slate-800 min-h-screen    border-r-slate-100      ${
-        open ? 'w-64' : 'w-16'
+        open ? 'w-16' : 'w-16'
       } duration-1000 `}
     >
       {/* Burger button */}
-      <div className="py-3 flex justify-end   ">
-        <BiBuoy
-          size={26}
-          className="cursor-pointer mr-4 hvr-icon bg-slate-900  text-neutral-200 rounded-full navbar-toggler "
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent1"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          onClick={() => setOpen(!open)}
-        />
+      <div className="py-3 flex justify-center logo bg-red-700 hover:text-slate-700 text-xl rounded  shadow-lg">
+        <h1 className="shadow-lg"> JVR</h1>
         {/* <Image
           className="cursor-pointer mr-4 hvr-icon  text-neutral-200 pulse
           navbar-toggler "
@@ -45,7 +36,7 @@ export default function Navbar() {
           onClick={() => setOpen(!open)}
         /> */}
       </div>
-      <div className="flex justify-center items-center relative ">
+      {/* <div className="flex justify-center items-center relative ">
         <Image
           className={`   bg-slate-200   rounded-full duration-500${
             !open && 'opacity-0 translate-x-28  relative hidden'
@@ -55,18 +46,18 @@ export default function Navbar() {
           height={100}
           alt="developer-image"
         />
-      </div>
+      </div> */}
 
       {/* Links */}
-      <div className="   m-4 flex flex-col gap-4  relative">
+      <div className="   m-4 flex flex-col gap-4 mt-10 gap-y-16  relative">
         {menu?.map((menu, i) => (
           <Link
             key={i}
-            className=" hover:bg-red-500 p-2 rounded-sm flex items-center gap-3.5 font-medium "
+            className=" hover:bg-red-500 p-2 group rounded-sm flex items-center gap-3.5 font-medium "
             href={menu?.link}
           >
-            <div>{React.createElement(menu?.icon, { size: '20' })}</div>
-
+            <div>{React.createElement(menu?.icon, { size: '22' })}</div>
+            {/* 
             <h2
               style={{ transitionDelay: `${i + 3}00ms ` }}
               className={`whitespace-pre duration-500 ${
@@ -74,6 +65,11 @@ export default function Navbar() {
               }`}
             >
               {menu?.name}
+            </h2> */}
+            <h2
+              className={` absolute left-48 bg-white font-semibold whitespace-pre text-slate-900 w-0 overflow-hidden rounded-md  drop-shadow-lg px-0 py-0 group-hover:px-2 group-hover:py-1  group-hover:left-14  group-hover:duration-300 group-hover:w-fit `}
+            >
+              {menu.name}
             </h2>
           </Link>
         ))}

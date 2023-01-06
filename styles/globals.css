@@ -6,3 +6,27 @@ html,
 body {
   overflow-x: hidden;
 }
+
+@font-face {
+  font-family: 'Good';
+  src: url(../public/Good.otf);
+}
+
+@font-face {
+  font-family: 'Coms';
+  src: url(../public/Coms.otf);
+}
+
+.logo {
+  font-family: 'Good';
+}
+
+.javier {
+  font-family: 'Good';
+  text-align: center;
+}
+
+h2,
+p {
+  font-family: 'Coms';
+}

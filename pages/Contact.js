@@ -67,14 +67,18 @@ function Contact() {
                   placeholder="Leave a comment..."
                 ></textarea>
               </div>
-
-              <button
-                type="submit"
-                className="py-5 px-8 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 bg-gradient-to-r from-red-600
-                to-rose-800   ml-8  "
+              <div
+                className="flex justify-center
+              "
               >
-                Send
-              </button>
+                <button
+                  type="submit"
+                  className="py-5 px-8 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 bg-gradient-to-r from-red-600
+                to-rose-800   ml-8  "
+                >
+                  Send
+                </button>
+              </div>
             </form>
           </div>
         </section>

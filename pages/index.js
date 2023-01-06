@@ -24,21 +24,21 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <section className="grid grid-flow-col gap-6 w-full bg-neutral-900   ">
+        <section className="grid grid-flow-col gap-6 w-full bg-slate-900   ">
           <Navbar />
           {/* right main */}
           <div className="flex flex-col md:flex-row   items-center">
             <div className=" p-2 m-10 ">
-              <h2 className="text-6xl py-2  font-bold text-red-500 md:text-7xl font-coms">
+              <h2 className="text-6xl py-2  font-bold text-red-500 md:text-7xl javier  ">
                 Javier Cervera
               </h2>
-              <h3 className="text-2xl py-2 font-medium text-neutral-900 md:text-3xl dark:text-stone-100 font-com">
+              <h3 className="text-2xl py-2 font-medium text-neutral-900 md:text-3xl text-center dark:text-stone-100 font-com">
                 Frontend Developer
               </h3>
-              <p className=" dark:text-stone-100 text-md mx-auto pt-2 leading-5  font-light text-stone-700 md:text-lg max-w-xl ">
+              <p className=" dark:text-stone-100 text-md mx-auto pt-2 leading-5  text-center font-light text-stone-700 md:text-lg max-w-xl ">
                 Freelancer providing Web Services with the latest technolgies
               </p>
-              <p className="text-md dark:text-stone-100 mx-auto text-neutral-900 font-light lg max-w-xl ">
+              <p className="text-md dark:text-stone-100 mx-auto text-neutral-900 text-center mt-6 font-light lg:max-w-xl ">
                 Contact me for any further inquires.
               </p>
 

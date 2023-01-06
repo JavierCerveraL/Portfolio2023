@@ -14,7 +14,7 @@ import Image from 'next/image';
 import Navbar from '../components/Navbar';
 function Skills() {
   return (
-    <section className="grid gap-6 w-full bg-neutral-900 grid-flow-col overflow-x-hidden">
+    <section className="grid gap-6 w-full bg-slate-900  grid-flow-col overflow-x-hidden">
       <Navbar />
       {/* Tools */}
       <div className="mt-10  ">
