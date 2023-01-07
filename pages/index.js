@@ -52,16 +52,19 @@ export default function Home() {
                   data-aos="zoom-out-up"
                   data-aos-duration="1000"
                   data-aos-offset="1500"
+                  href="https://twitter.com/JvrCvrLpz"
                 />
                 <AiFillLinkedin
                   data-aos="zoom-out-up"
                   data-aos-duration="1500"
                   data-aos-offset="1500"
+                  href="https://www.linkedin.com/in/javiercerveralopez/"
                 />
                 <AiFillGithub
                   data-aos="zoom-out-up"
                   data-aos-duration="2000"
                   data-aos-offset="1500"
+                  href="https://github.com/JavierCerveraL"
                 />
               </div>
               {/* ICON */}

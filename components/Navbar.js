@@ -26,9 +26,10 @@ export default function Navbar() {
       } duration-1000 `}
     >
       {/* Burger button */}
-      <div className="py-3 flex justify-center logo bg-red-700 hover:text-slate-100 hover:bg-slate-700  duration-500 text-xl rounded-lg  shadow-sm">
-        <h1 className="shadow-lg"> JVR</h1>
-        {/* <Image
+      <Link href="/">
+        <div className="py-3 flex justify-center logo bg-red-700 hover:text-slate-100 hover:bg-slate-700  duration-500 text-xl rounded-lg  shadow-sm">
+          <h1 className="shadow-lg"> JVR</h1>
+          {/* <Image
           className="cursor-pointer mr-4 hvr-icon  text-neutral-200 pulse
           navbar-toggler "
           src={'/pngwing.com.png'}
@@ -36,7 +37,9 @@ export default function Navbar() {
           height={30}
           onClick={() => setOpen(!open)}
         /> */}
-      </div>
+        </div>
+      </Link>
+
       {/* <div className="flex justify-center items-center relative ">
         <Image
           className={`   bg-slate-200   rounded-full duration-500${
