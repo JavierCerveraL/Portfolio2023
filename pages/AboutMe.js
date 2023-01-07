@@ -17,7 +17,7 @@ function AboutMe() {
           <div className="big-box md:flex  mt-5 ">
             {' '}
             {/* box 1 */}
-            <div className="grid md:grid-flow-col mx-10 p-5 bg-slate-200 animate__animated animate__backInUp opacity-3 mt-5 rounded-lg justify-center">
+            <div className="grid md:grid-flow-col mx-2 p-5 bg-slate-200 animate__animated animate__backInUp opacity-3 mt-5 rounded-lg justify-center">
               <p className="text-lg ">
                 My name is <strong>Javier Cervera Lopez</strong>, born and
                 raised in Mexico. After working more than 5 years in the
