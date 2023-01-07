@@ -23,10 +23,13 @@ body {
 
 .javier {
   font-family: 'Good';
-  text-align: center;
 }
 
 h2,
 p {
   font-family: 'Coms';
+}
+
+textarea {
+  resize: none;
 }

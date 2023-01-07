@@ -11,7 +11,7 @@ export default function Navbar() {
   const menu = [
     { name: 'Home', link: '/', icon: BiHome },
     { name: 'About Me', link: '/Me', icon: BiUserPin },
-    { name: 'Tools', link: '/Skills', icon: FaTools },
+    { name: 'Skills', link: '/Skills', icon: FaTools },
     { name: 'Projects', link: '/Projects', icon: BiCookie },
     { name: 'Contact Me', link: '/Contact', icon: BiChat },
   ];
@@ -25,7 +25,7 @@ export default function Navbar() {
       } duration-1000 `}
     >
       {/* Burger button */}
-      <div className="py-3 flex justify-center logo bg-red-700 hover:text-slate-700 text-xl rounded  shadow-sm">
+      <div className="py-3 flex justify-center logo bg-red-700 hover:text-slate-100 hover:bg-slate-700  duration-500 text-xl rounded-lg  shadow-sm">
         <h1 className="shadow-lg"> JVR</h1>
         {/* <Image
           className="cursor-pointer mr-4 hvr-icon  text-neutral-200 pulse
@@ -49,14 +49,14 @@ export default function Navbar() {
       </div> */}
 
       {/* Links */}
-      <div className="   m-4 flex flex-col gap-4 mt-10 gap-y-10  relative">
+      <div className="   m-4 flex flex-col gap-4 mt-10 gap-y-10  relative rounded-full">
         {menu?.map((menu, i) => (
           <Link
             key={i}
-            className=" hover:bg-red-500 p-2 group rounded-sm flex items-center gap-3.5 font-medium "
+            className=" hover:text-white text-slate-500  duration-300  p-1 group rounded-sm flex items-center gap-3.5 font-medium "
             href={menu?.link}
           >
-            <div>{React.createElement(menu?.icon, { size: '22' })}</div>
+            <div>{React.createElement(menu?.icon, { size: '20' })}</div>
             {/* 
             <h2
               style={{ transitionDelay: `${i + 3}00ms ` }}

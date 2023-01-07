@@ -25,9 +25,9 @@ export default function Home() {
         <section className="grid grid-flow-col gap-2 w-full bg-slate-900   ">
           <Navbar />
           {/* right main */}
-          <div className="flex flex-col md:flex-row my-16   items-center">
+          <div className="flex flex-col md:flex-row    items-center">
             <div className=" p-2 m-10 ">
-              <h2 className="text-4xl py-5  font-bold text-red-500 md:text-7xl javier   ">
+              <h2 className="text-4xl   font-bold text-red-500 md:text-7xl javier   ">
                 <div className="animate__backInLeft animate__animated">
                   Javier
                 </div>
@@ -36,18 +36,18 @@ export default function Home() {
                   Cervera
                 </div>
               </h2>
-              <h3 className="text-2xl py-2 font-medium text-neutral-900 md:text-3xl text-center dark:text-stone-100 font-com animate__fadeInUp animate__animated ">
+              <h3 className="text-2xl py-1 font-medium text-neutral-900 md:text-3xl text-center dark:text-stone-100 font-com animate__fadeInUp animate__animated ">
                 Frontend Developer
               </h3>
               <p className=" dark:text-stone-100 text-md mx-auto pt-2 leading-5  text-center font-light text-stone-700 md:text-lg max-w-xl  animate__fadeInUp animate__animated">
                 Freelancer providing Web Services with the latest technolgies
               </p>
-              <p className="text-md dark:text-stone-100 mx-auto text-neutral-900 text-center mt-6 font-light lg:max-w-xl animate__fadeInUp animate__animated ">
+              <p className="text-md dark:text-stone-100 mx-auto text-neutral-900 text-center mt- font-light lg:max-w-xl animate__fadeInUp animate__animated ">
                 Contact me for any further inquires.
               </p>
 
               {/* ICONS */}
-              <div className=" text-4xl flex justify-center gap-10 text-blue-500 mt-20 ">
+              <div className=" text-4xl flex justify-center gap-10 text-blue-500 mt-10 ">
                 <AiFillTwitterCircle
                   data-aos="zoom-out-up"
                   data-aos-duration="1000"
