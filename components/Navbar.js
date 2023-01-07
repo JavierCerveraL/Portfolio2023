@@ -10,7 +10,7 @@ import Image from 'next/image';
 export default function Navbar() {
   const menu = [
     { name: 'Home', link: '/', icon: BiHome },
-    { name: 'About Me', link: '/Me', icon: BiUserPin },
+    { name: 'About Me', link: '/AboutMe', icon: BiUserPin },
     { name: 'Skills', link: '/Skills', icon: FaTools },
     { name: 'Projects', link: '/Projects', icon: BiCookie },
     { name: 'Contact Me', link: '/Contact', icon: BiChat },

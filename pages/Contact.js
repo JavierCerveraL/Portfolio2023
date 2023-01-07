@@ -1,9 +1,13 @@
+import Head from 'next/head';
 import React from 'react';
 import Navbar from '../components/Navbar';
 
 function Contact() {
   return (
     <div>
+      <Head>
+        <title>Contact Me - JVRCVR</title>
+      </Head>
       <section
         className=" grid grid-flow-col  w-full bg-slate-900 "
         id="contact"

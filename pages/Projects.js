@@ -6,10 +6,14 @@ import web3 from '../public/web3.png';
 import web4 from '../public/web4.png';
 import Image from 'next/image';
 import Link from 'next/link';
+import Head from 'next/head';
 
 function Projects() {
   return (
     <div>
+      <Head>
+        <title>Projects - JVRCVR</title>
+      </Head>
       <section className="flex gap-6 w-full bg-slate-900 " id="projects">
         <Navbar />
         <div className="py-8 lg:py-6 px-4 mx-auto max-w-screen-md">

@@ -1,9 +1,13 @@
+import Head from 'next/head';
 import React from 'react';
 import Navbar from '../components/Navbar';
 
-function Me() {
+function AboutMe() {
   return (
     <div>
+      <Head>
+        <title>About me - JVRCVR</title>
+      </Head>
       <section className="flex gap-6 w-full bg-slate-900" id="me">
         <Navbar />
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
@@ -47,4 +51,4 @@ function Me() {
     </div>
   );
 }
-export default Me;
+export default AboutMe;

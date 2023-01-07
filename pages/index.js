@@ -17,7 +17,7 @@ export default function Home() {
         <link href="css/hover-min.css" rel="stylesheet" />
         <link rel="stylesheet" href="wickedcss.min.css" />
 
-        <title>JVRCVR</title>
+        <title>Welcome - JVRCVR</title>
         <meta name="description" content="Web portfolio by JVRCVR" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

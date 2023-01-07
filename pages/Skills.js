@@ -15,6 +15,7 @@ import skill11 from '../public/skill11.png';
 import skill12 from '../public/skill12.png';
 import Image from 'next/image';
 import Navbar from '../components/Navbar';
+import Head from 'next/head';
 
 function Skills() {
   return (
@@ -22,6 +23,9 @@ function Skills() {
       className="grid  w-full bg-slate-900  row-span-6 grid-flow-col overflow-x-hidden"
       id="skills"
     >
+      <Head>
+        <title>Skills - JVRCVR</title>
+      </Head>
       <Navbar />
       {/* Tools */}
       <div className="main-skills col-span-12 text-center mx-auto">
