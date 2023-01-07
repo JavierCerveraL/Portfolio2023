@@ -22,7 +22,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <section className="grid grid-flow-col gap-2 w-full bg-slate-900   ">
+        <section className="grid grid-flow-col gap-2 w-full  " id="home">
           <Navbar />
           {/* right main */}
           <div className="flex flex-col md:flex-row    items-center">

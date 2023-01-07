@@ -20,7 +20,8 @@ export default function Navbar() {
   return (
     // navbar
     <div
-      className={`text-gray-50 bg-slate-800 min-h-screen    border-r-slate-100      ${
+      id="navbar"
+      className={`text-gray-50 bg-neutral-900 min-h-screen    border-r-slate-100      ${
         open ? 'w-16' : 'w-16'
       } duration-1000 `}
     >

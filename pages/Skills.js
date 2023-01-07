@@ -18,7 +18,10 @@ import Navbar from '../components/Navbar';
 
 function Skills() {
   return (
-    <section className="grid  w-full bg-slate-900  row-span-6 grid-flow-col overflow-x-hidden">
+    <section
+      className="grid  w-full bg-slate-900  row-span-6 grid-flow-col overflow-x-hidden"
+      id="skills"
+    >
       <Navbar />
       {/* Tools */}
       <div className="main-skills col-span-12 text-center mx-auto">

@@ -33,3 +33,14 @@ p {
 textarea {
   resize: none;
 }
+
+#home,
+#contact,
+#skills {
+  background-image: url(../public/bg2.png);
+}
+
+#me,
+#projects {
+  background-image: url(../public/bg3.png);
+}

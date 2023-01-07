@@ -4,13 +4,16 @@ import Navbar from '../components/Navbar';
 function Contact() {
   return (
     <div>
-      <section className=" grid grid-flow-col  w-full bg-slate-900 ">
+      <section
+        className=" grid grid-flow-col  w-full bg-slate-900 "
+        id="contact"
+      >
         <Navbar />
         {/* {Contact form} */}
 
         <section className="col-span-12 ">
-          <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-            <h3 className="text-5xl animate__animated animate__fadeInDown font-bold text-red-500 md:text-7xl javier pb-5   ">
+          <div className="py-8 lg:py-16 px-5 pr-10 mx-auto max-w-screen-md">
+            <h3 className="text-5xl animate__animated animate__fadeInDown font-bold text-red-500 md:text-6xl javier pb-5   ">
               CONTACT ME
             </h3>
 
