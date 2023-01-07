@@ -8,6 +8,7 @@ import {
   AiFillLinkedin,
   AiFillGithub,
 } from 'react-icons/ai';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -48,24 +49,17 @@ export default function Home() {
 
               {/* ICONS */}
               <div className=" text-4xl flex justify-center gap-10 text-blue-500 mt-10 ">
-                <AiFillTwitterCircle
-                  data-aos="zoom-out-up"
-                  data-aos-duration="1000"
-                  data-aos-offset="1500"
-                  href="https://twitter.com/JvrCvrLpz"
-                />
-                <AiFillLinkedin
-                  data-aos="zoom-out-up"
-                  data-aos-duration="1500"
-                  data-aos-offset="1500"
-                  href="https://www.linkedin.com/in/javiercerveralopez/"
-                />
-                <AiFillGithub
-                  data-aos="zoom-out-up"
-                  data-aos-duration="2000"
-                  data-aos-offset="1500"
-                  href="https://github.com/JavierCerveraL"
-                />
+                <Link href="https://twitter.com/JvrCvrLpz">
+                  <AiFillTwitterCircle />
+                </Link>
+
+                <Link href="https://www.linkedin.com/in/javiercerveralopez/">
+                  <AiFillLinkedin />
+                </Link>
+
+                <Link href="https://github.com/JavierCerveraL">
+                  <AiFillGithub />
+                </Link>
               </div>
               {/* ICON */}
             </div>

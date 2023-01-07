@@ -33,7 +33,7 @@ function Skills() {
           <div className="big-box md:flex  mt-5 ">
             {' '}
             {/* box 1 */}
-            <div className="grid md:grid-flow-col mx-10 bg-slate-200 animate__animated animate__fadeInTopLeft opacity-3 mt-5 rounded-xl justify-center">
+            <div className="grid md:grid-flow-col mx-10 shadow bg-slate-200 animate__animated animate__fadeInTopLeft opacity-3 mt-5 rounded-xl justify-center">
               {/* item list */}
               <div className="sm:col-span-2 p-5 text-xl">
                 {/* idv item */}
@@ -182,7 +182,7 @@ function Skills() {
                 </div>
                 {/* idv item */}
                 <div className="flex items-center justify-center ">
-                  <h2>npm</h2>
+                  <h2 className="mt-1.5">npm</h2>
                   <div className="w-7 mt-2">
                     <Image
                       src={skill12}
