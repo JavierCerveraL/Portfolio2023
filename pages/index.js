@@ -14,8 +14,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <link href="css/hover-min.css" rel="stylesheet" />
-        <link rel="stylesheet" href="wickedcss.min.css" />
+        {/* <link href="css/hover-min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="wickedcss.min.css" /> */}
 
         <title>Welcome - JVRCVR</title>
         <meta name="description" content="Web portfolio by JVRCVR" />

@@ -27,10 +27,10 @@ function AboutMe() {
                 After days of researching about the IT industry and how and
                 where to start programing, I found JavaScript and started to
                 learn the basic of it. But first my learning journey started
-                with the <strong>"Responsive Web Design" </strong>course from
+                with the <strong> Responsive Web Design </strong>course from
                 FreeCodeCamp.com. After finishing it and with a basic knowledge
                 of HTML and CSS, I got enrolled into the{' '}
-                <strong>"Web Developement" </strong>
+                <strong> Web Developement </strong>
                 course from CoderHouse.com which helped me understand more and
                 kept me motivated. <br />
                 <br />
