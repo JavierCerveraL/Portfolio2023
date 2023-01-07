@@ -25,7 +25,7 @@ export default function Navbar() {
       } duration-1000 `}
     >
       {/* Burger button */}
-      <div className="py-3 flex justify-center logo bg-red-700 hover:text-slate-700 text-xl rounded  shadow-lg">
+      <div className="py-3 flex justify-center logo bg-red-700 hover:text-slate-700 text-xl rounded  shadow-sm">
         <h1 className="shadow-lg"> JVR</h1>
         {/* <Image
           className="cursor-pointer mr-4 hvr-icon  text-neutral-200 pulse
@@ -49,7 +49,7 @@ export default function Navbar() {
       </div> */}
 
       {/* Links */}
-      <div className="   m-4 flex flex-col gap-4 mt-10 gap-y-16  relative">
+      <div className="   m-4 flex flex-col gap-4 mt-10 gap-y-10  relative">
         {menu?.map((menu, i) => (
           <Link
             key={i}
