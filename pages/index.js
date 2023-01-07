@@ -26,7 +26,7 @@ export default function Home() {
         <section className="grid grid-flow-col gap-2 w-full bg-slate-900   ">
           <Navbar />
           {/* right main */}
-          <div className="flex flex-col md:flex-row   items-center">
+          <div className="flex flex-col md:flex-row py-20   items-center">
             <div className=" p-2 m-10 ">
               <h2 className="text-4xl py-5  font-bold text-red-500 md:text-7xl javier   ">
                 <div className="animate__backInLeft animate__animated">
@@ -48,7 +48,7 @@ export default function Home() {
               </p>
 
               {/* ICONS */}
-              <div className=" text-5xl flex justify-center gap-10 text-blue-500 mt-20 ">
+              <div className=" text-4xl flex justify-center gap-10 text-blue-500 mt-20 ">
                 <AiFillTwitterCircle
                   data-aos="zoom-out-up"
                   data-aos-duration="1000"
