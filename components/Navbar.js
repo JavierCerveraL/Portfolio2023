@@ -57,7 +57,7 @@ export default function Navbar() {
         {menu?.map((menu, i) => (
           <Link
             key={i}
-            className=" hover:text-white text-slate-500  duration-300  p-1 group rounded-sm flex items-center gap-3.5 font-medium "
+            className=" hover:text-white z-50 text-slate-500  duration-300  p-1 group rounded-sm flex items-center gap-3.5 font-medium "
             href={menu?.link}
           >
             <div>{React.createElement(menu?.icon, { size: '20' })}</div>
