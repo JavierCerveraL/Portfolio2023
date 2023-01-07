@@ -39,7 +39,7 @@ function Skills() {
             {/* box 1 */}
             <div className="grid md:grid-flow-col mx-10 shadow bg-slate-200 animate__animated animate__fadeInTopLeft opacity-3 mt-5 rounded-xl justify-center">
               {/* item list */}
-              <div className="sm:col-span-2 p-5 text-xl">
+              <div className="sm:col-span-2 p-10 text-xl">
                 {/* idv item */}
                 <div className="flex items-center justify-center ">
                   <h2>HTML5 </h2>
@@ -121,7 +121,7 @@ function Skills() {
             {/* box2 */}
             <div className="grid md:grid-flow-col mx-10 bg-slate-200 opacity-3 mt-5 rounded-xl justify-center animate__animated animate__fadeInTopRight">
               {/* item list */}
-              <div className="sm:col-span-2 p-5 text-xl">
+              <div className="sm:col-span-2 p-10 text-xl">
                 {/* idv item */}
                 <div className="flex items-center  justify-center ">
                   <h2>Next.js</h2>

@@ -16,13 +16,13 @@ function Projects() {
       </Head>
       <section className="flex gap-6 w-full bg-slate-900 " id="projects">
         <Navbar />
-        <div className="py-8 lg:py-6 px-4 mx-auto max-w-screen-md">
+        <div className="py-8 lg:py-6 px-4 md:px-28 mx-auto max-w-screen-md">
           <h3 className="text-4xl animate__animated animate__fadeInDown font-bold text-red-500 md:text-7xl javier  pb-5 text-center ">
             Projects
           </h3>
 
-          <div className="big-box  flex gap-16 flex-wrap  ">
-            <div className="grid md:grid-flow-col   animate__animated animate__fadeIn opacity-3 mt-5 rounded-xl justify-center w-80 lg:w-auto">
+          <div className="big-box  flex gap-12 flex-wrap  ">
+            <div className="grid md:grid-flow-col   animate__animated animate__fadeIn opacity-3 mt-5 rounded-xl justify-center w-60 lg:w-auto">
               <Link href="https://notflixdb.netlify.app/" target="_blank">
                 <Image
                   src={web1}
@@ -34,7 +34,7 @@ function Projects() {
                 />
               </Link>
             </div>
-            <div className="grid md:grid-flow-col  bg-slate-200 animate__animated animate__fadeIn opacity-3 mt-5 rounded-xl  w-80 lg:w-auto ">
+            <div className="grid md:grid-flow-col  bg-slate-200 animate__animated animate__fadeIn opacity-3 mt-5 rounded-xl  w-60  lg:w-auto ">
               <Link
                 href="https://javiercerveral.github.io/sucre/"
                 target="_blank"
@@ -49,7 +49,7 @@ function Projects() {
                 />
               </Link>
             </div>
-            <div className="grid md:grid-flow-col  bg-slate-200 animate__animated animate__fadeIn opacity-3 mt-5 rounded-xl w-80 lg:w-auto">
+            <div className="grid md:grid-flow-col  bg-slate-200 animate__animated animate__fadeIn opacity-3 mt-5 rounded-xl w-60 lg:w-auto">
               <Link href="https://tatilazobeauty.com/" target="_blank">
                 <Image
                   src={web3}
@@ -61,7 +61,7 @@ function Projects() {
                 />
               </Link>
             </div>
-            <div className="grid md:grid-flow-col bg-slate-200 animate__animated animate__fadeIn opacity-3 mt-5 rounded-xl w-80 lg:w-auto ">
+            <div className="grid md:grid-flow-col bg-slate-200 animate__animated animate__fadeIn opacity-3 mt-5 rounded-xl w-60 lg:w-auto ">
               <Link
                 href="https://javiercerveral.github.io/dentia-merida/"
                 target="_blank"
