@@ -20,9 +20,7 @@ function AboutMe() {
             <div className="grid md:grid-flow-col mx-2 p-5 bg-slate-200 animate__animated animate__backInUp opacity-3 mt-5 rounded-lg justify-center">
               <p className="text-lg ">
                 My name is <strong>Javier Cervera Lopez</strong>, born and
-                raised in Mexico. After working more than 5 years in the
-                hospitality industry I decided to give my career a 180 degree
-                change. <br />
+                raised in Mexico. After working more than 5 years in the hospitality industry, I decided to give my career a 180 degree change. <br />
                 <br />
                 After days of researching about the IT industry and how and
                 where to start programing, I found JavaScript and started to
@@ -34,14 +32,15 @@ function AboutMe() {
                 course from CoderHouse.com which helped me understand more and
                 kept me motivated. <br />
                 <br />
-                Now after having my first interview experience for a Wordpress
-                Developement position, I consider myself capable of building
-                responsive and beautiful website designs with tools like
-                Tailwind, React, and many other libraries.
+                Now, after having my first interview experience for a Wordpress Developement position, I consider myself capable of building responsive and beautiful website designs with tools like Tailwind, React, and many other libraries.
                 <br />
                 <br />
                 There is still a lot to learn but I know this is just the
-                beginning. <br />
+                beginning... <br />
+
+
+
+
                 <small className="text-right mt-14">- jvr</small>
               </p>
             </div>
