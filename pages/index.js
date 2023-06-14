@@ -28,7 +28,7 @@ export default function Home() {
           {/* right main */}
           <div className="flex  md:flex-row  xs:top-50 items-center">
             <div className=" p-2 m-10 ">
-              <h2 className="text-5xl sm:text-7xl  xs:text-5xl  font-bold text-red-500 javier lg:text-7xl  relative text-center  ">
+              <h2 className="text-3xl sm:text-7xl  xs:text-5xl  font-bold text-red-500 javier lg:text-7xl  relative text-center  ">
                 <div className="animate__backInLeft animate__animated">
                   Javier
                 </div>
@@ -37,21 +37,18 @@ export default function Home() {
                   Cervera
                 </div>
               </h2>
-              <h3 className="text-2xl py-1 font-medium text-neutral-900 md:text-3xl text-center dark:text-stone-100 font-com animate__fadeInUp animate__animated ">
+              <h3 className="text-xl py-1 font-medium text-neutral-900 md:text-3xl text-center dark:text-stone-100 font-com animate__fadeInUp animate__animated ">
                 Frontend Developer
               </h3>
-              <p className=" dark:text-stone-100 text-md mx-auto pt-2 leading-5  text-center font-light text-stone-700 md:text-lg max-w-xl  animate__fadeInUp animate__animated">
+              <p className=" dark:text-stone-100 text-sm mx-auto pt-2 leading-5  text-center font-light text-stone-700 md:text-lg max-w-xl  animate__fadeInUp animate__animated">
                 Freelancer providing Web Services with the latest technologies
               </p>
-              <p className="text-md dark:text-stone-100 mx-auto text-neutral-900 text-center mt- font-light lg:max-w-xl animate__fadeInUp animate__animated ">
+              <p className="text-sm dark:text-stone-100 mx-auto text-neutral-900 text-center mt- font-light lg:max-w-xl animate__fadeInUp animate__animated ">
                 Contact me for any further inquires.
               </p>
 
               {/* ICONS */}
-              <div className=" text-4xl flex justify-center gap-10 text-sky-700 mt-10 ">
-                <Link href="https://twitter.com/JvrCvrLpz">
-                  <AiFillTwitterCircle />
-                </Link>
+              <div className=" lg:text-4xl text-2xl md:text-4xl flex justify-center gap-10 text-sky-700 mt-8 ">
 
                 <Link href="https://www.linkedin.com/in/javiercerveralopez/">
                   <AiFillLinkedin />

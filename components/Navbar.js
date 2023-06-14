@@ -22,7 +22,7 @@ export default function Navbar() {
     <div
       id="navbar"
       className={`text-gray-50 bg-neutral-900 min-h-screen    border-r-slate-100      ${
-        open ? 'w-16' : 'w-16'
+        open ? 'w-[50px]' : 'w-10'
       } duration-1000 `}
     >
       {/* Burger button */}
