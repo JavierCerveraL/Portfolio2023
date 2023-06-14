@@ -27,16 +27,16 @@ export default function Navbar() {
     >
       {/* Burger button */}
       <Link href="/">
-        <div className="py-3 flex justify-center logo bg-red-700 hover:text-slate-100 hover:bg-slate-700  duration-500 text-xl rounded-lg  shadow-sm">
-          <h1 className="shadow-lg"> JVR</h1>
-          {/* <Image
-          className="cursor-pointer mr-4 hvr-icon  text-neutral-200 pulse
+        <div className="py-3 flex justify-center logo items-center hover:text-slate-100 hover:bg-slate-700  duration-500 text-xl rounded-lg  shadow-sm">
+          {/* <h1 className="shadow-lg"> JVR</h1> */}
+          <Image
+          className="cursor-pointer mr-4 hvr-icon left-2 relative object-contain text-neutral-200 pulse
           navbar-toggler "
-          src={'/pngwing.com.png'}
-          width={40}
-          height={30}
+          src={'/logo-no-background.svg'}
+          width={50}
+          height={50}
           onClick={() => setOpen(!open)}
-        /> */}
+        />
         </div>
       </Link>
 

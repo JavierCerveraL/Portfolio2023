@@ -34,16 +34,16 @@ function Skills() {
             Skills
           </h2>
           {/* skill box */}
-          <div className="big-box md:flex  mt-5 ">
+          <div className="big-box md:flex  mt-10  ">
             {' '}
             {/* box 1 */}
-            <div className="grid md:grid-flow-col mx-10 shadow bg-slate-200 animate__animated animate__fadeInTopLeft opacity-3 mt-5 rounded-xl justify-center">
+            <div className="grid md:grid-flow-col mx-10 shadow  bg-slate-300 animate__animated animate__fadeInTopLeft  mt-5 rounded-xl justify-center">
               {/* item list */}
-              <div className="sm:col-span-2 p-10 text-xl">
+              <div className="sm:col-span-2 p-10 text-5xl">
                 {/* idv item */}
                 <div className="flex items-center justify-center ">
                   <h2>HTML5 </h2>
-                  <div className="w-10">
+                  <div className="w-16">
                     <Image
                       src={skill1}
                       className=" rounded-lg  hvr-wobble-vertical transition duration-300 ease-in-out"
@@ -56,7 +56,7 @@ function Skills() {
                 {/* idv item */}
                 <div className="flex items-center justify-center ">
                   <h2>CSS3</h2>
-                  <div className="w-10">
+                  <div className="w-16">
                     <Image
                       src={skill2}
                       className=" rounded-lg  hvr-wobble-vertical transition duration-300 ease-in-out"
@@ -68,7 +68,7 @@ function Skills() {
                 {/* idv item */}
                 <div className="flex items-center justify-center ">
                   <h2>JavaScript</h2>
-                  <div className="w-10">
+                  <div className="w-16">
                     <Image
                       src={skill3}
                       className=" rounded-lg  hvr-wobble-vertical transition duration-300 ease-in-out"
@@ -81,7 +81,7 @@ function Skills() {
                 {/* idv item */}
                 <div className="flex items-center justify-center ">
                   <h2>SASS</h2>
-                  <div className="w-10">
+                  <div className="w-16">
                     <Image
                       src={skill4}
                       className=" rounded-lg ml-2 hvr-wobble-vertical transition duration-300 ease-in-out"
@@ -93,7 +93,7 @@ function Skills() {
                 {/* idv item */}
                 <div className="flex items-center justify-center ">
                   <h2>Tailwind</h2>
-                  <div className="w-10">
+                  <div className="w-16">
                     <Image
                       src={skill5}
                       className=" rounded-lg ml-2 hvr-wobble-vertical transition duration-300 ease-in-out"
@@ -105,7 +105,7 @@ function Skills() {
                 {/* idv item */}
                 <div className="flex items-center justify-center ">
                   <h2>React</h2>
-                  <div className="w-10">
+                  <div className="w-16">
                     <Image
                       src={skill6}
                       className=" rounded-lg ml-2 hvr-wobble-vertical transition duration-300 ease-in-out"
@@ -119,13 +119,13 @@ function Skills() {
             </div>
             {/* box1 */}
             {/* box2 */}
-            <div className="grid md:grid-flow-col mx-10 bg-slate-200 opacity-3 mt-5 rounded-xl justify-center animate__animated animate__fadeInTopRight">
+            <div className="grid md:grid-flow-col mx-10 bg-slate-300 opacity-3 mt-5 rounded-xl justify-center animate__animated animate__fadeInTopRight">
               {/* item list */}
-              <div className="sm:col-span-2 p-10 text-xl">
+              <div className="sm:col-span-2 p-10 text-5xl">
                 {/* idv item */}
                 <div className="flex items-center  justify-center ">
                   <h2>Next.js</h2>
-                  <div className="w-7">
+                  <div className="w-12">
                     <Image
                       src={skill7}
                       className=" rounded-lg ml-2 hvr-wobble-vertical transition duration-300 ease-in-out"
@@ -138,7 +138,7 @@ function Skills() {
                 {/* idv item */}
                 <div className="flex items-center justify-center ">
                   <h2>Bootstrap</h2>
-                  <div className="w-7 mt-2">
+                  <div className="w-14 mt-2">
                     <Image
                       src={skill8}
                       className=" rounded-lg ml-1  hvr-wobble-vertical transition duration-300 ease-in-out"
@@ -150,7 +150,7 @@ function Skills() {
                 {/* idv item */}
                 <div className="flex items-center justify-center ">
                   <h2>Wordpress</h2>
-                  <div className="w-7 mt-2">
+                  <div className="w-14 mt-2">
                     <Image
                       src={skill9}
                       className=" rounded-lg ml-1 hvr-wobble-vertical transition duration-300 ease-in-out"
@@ -163,7 +163,7 @@ function Skills() {
                 {/* idv item */}
                 <div className="flex items-center justify-center ">
                   <h2>Git</h2>
-                  <div className="w-10 mt-1">
+                  <div className="w-16 mt-1">
                     <Image
                       src={skill10}
                       className=" rounded-lg ml-2 hvr-wobble-vertical transition duration-300 ease-in-out"
@@ -175,7 +175,7 @@ function Skills() {
                 {/* idv item */}
                 <div className="flex items-center justify-center ">
                   <h2>Netlify</h2>
-                  <div className="w-7 mt-2">
+                  <div className="w-12 mt-2">
                     <Image
                       src={skill11}
                       className=" rounded-lg ml-2 hvr-wobble-vertical transition duration-300 ease-in-out"
@@ -187,7 +187,7 @@ function Skills() {
                 {/* idv item */}
                 <div className="flex items-center justify-center ">
                   <h2 className="mt-1.5">npm</h2>
-                  <div className="w-7 mt-2">
+                  <div className="w-10 mt-2">
                     <Image
                       src={skill12}
                       className=" rounded-lg ml-2 hvr-wobble-vertical transition duration-300 ease-in-out"

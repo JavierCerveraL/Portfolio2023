@@ -20,20 +20,20 @@ export default function Home() {
         <title>Welcome - JVRCVR</title>
         <meta name="description" content="Web portfolio by JVRCVR" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo-no-background.svg" />
       </Head>
       <main>
         <section className="grid grid-flow-col gap-2 w-full  " id="home">
           <Navbar />
           {/* right main */}
-          <div className="flex flex-col md:flex-row    items-center">
+          <div className="flex  md:flex-row  xs:top-50 items-center">
             <div className=" p-2 m-10 ">
-              <h2 className="text-4xl   font-bold text-red-500 md:text-7xl javier   ">
+              <h2 className="text-5xl sm:text-7xl  xs:text-5xl  font-bold text-red-500 javier lg:text-7xl  relative text-center  ">
                 <div className="animate__backInLeft animate__animated">
                   Javier
                 </div>
 
-                <div className="animate__backInRight animate__animated">
+                <div className="animate__backInRight animate__animated text-center">
                   Cervera
                 </div>
               </h2>
@@ -41,14 +41,14 @@ export default function Home() {
                 Frontend Developer
               </h3>
               <p className=" dark:text-stone-100 text-md mx-auto pt-2 leading-5  text-center font-light text-stone-700 md:text-lg max-w-xl  animate__fadeInUp animate__animated">
-                Freelancer providing Web Services with the latest technolgies
+                Freelancer providing Web Services with the latest technologies
               </p>
               <p className="text-md dark:text-stone-100 mx-auto text-neutral-900 text-center mt- font-light lg:max-w-xl animate__fadeInUp animate__animated ">
                 Contact me for any further inquires.
               </p>
 
               {/* ICONS */}
-              <div className=" text-4xl flex justify-center gap-10 text-blue-500 mt-10 ">
+              <div className=" text-4xl flex justify-center gap-10 text-sky-700 mt-10 ">
                 <Link href="https://twitter.com/JvrCvrLpz">
                   <AiFillTwitterCircle />
                 </Link>

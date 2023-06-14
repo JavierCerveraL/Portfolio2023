@@ -17,32 +17,29 @@ function AboutMe() {
           <div className="big-box md:flex  mt-5 ">
             {' '}
             {/* box 1 */}
-            <div className="grid md:grid-flow-col mx-2 p-5 bg-slate-200 animate__animated animate__backInUp opacity-3 mt-5 rounded-lg justify-center">
+            <div className="grid md:grid-flow-col mx-2 p-5 bg-slate-300  animate__animated animate__backInUp  mt-5 rounded-lg justify-center">
               <p className="text-lg ">
                 My name is <strong>Javier Cervera Lopez</strong>, born and
                 raised in Mexico. After working more than 5 years in the
-                hospitality industry I decided to give my career a 180 degree
+                hospitality industry, I decided to give my career a 180-degree
                 change. <br />
                 <br />
                 After days of researching about the IT industry and how and
-                where to start programing, I found JavaScript and started to
-                learn the basic of it. But first my learning journey started
-                with the <strong> Responsive Web Design </strong>course from
-                FreeCodeCamp.com. After finishing it and with a basic knowledge
-                of HTML and CSS, I got enrolled into the{' '}
-                <strong> Web Developement </strong>
-                course from CoderHouse.com which helped me understand more and
+                where to start programming, i found JavaScript and started to
+                learn the basics of it. The<strong> Responsive Web Design </strong>course from
+                FreeCodeCamp.org was the first course i took. After finishing it and with a basic knowledge
+                of HTML and CSS, I got enrolled into the
+                <strong> Web Development  </strong>
+                course from CoderHouse.com which helped me understand more concepts and
                 kept me motivated. <br />
                 <br />
-                Now after having my first interview experience for a Wordpress
-                Developement position, I consider myself capable of building
-                responsive and beautiful website designs with tools like
-                Tailwind, React, and many other libraries.
+                Though I may not possess a formal degree, I have spent significant time honing my web development skills through self-study and hands-on experience. I have consistently sought out opportunities to expand my knowledge and stay updated with the latest industry trends and technologies. My dedication to continuous learning has enabled me to acquire a good proficiency in various coding languages such as HTML, CSS, JavaScript and other frameworks.<br/> 
+                <br/> 
+                What I lack in formal education, I make up for with my ambition and determination. I am always striving to improve my skills and stay ahead of industry advancements. I am an avid learner, always seeking out online courses, tutorials, and networking opportunities to enhance my technical expertise. 
                 <br />
                 <br />
-                There is still a lot to learn but I know this is just the
-                beginning. <br />
-                <small className="text-right mt-14">- jvr</small>
+
+              
               </p>
             </div>
           </div>
