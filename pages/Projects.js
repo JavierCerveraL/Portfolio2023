@@ -100,7 +100,7 @@ function Projects() {
                 target="_blank"
               >
                 <Image
-                  src={web6}
+                  src={web2}
                   className=" rounded-lg object-cover   hover:scale-110 transition duration-300 ease-in-out"
                   width={'100%'}
                   height={'100%'}
@@ -109,7 +109,7 @@ function Projects() {
                 />
                                          <div className='w-full bg-grad-skills rounded-b-md rounded-t-sm pb-2 relative  mt-2  '>
                   <h3 className='text-stone-100 font-medium text-xl border-b border-white border-solid text-center'>Architecture Portfolio </h3><hr/>
-                  <p className='text-stone-100 mt-2 p-2 font-normal'>Movie Database </p>
+                  <p className='text-stone-100 mt-2 p-2 font-normal'> </p>
                 </div>     
               </Link>
             </div>
@@ -127,8 +127,8 @@ function Projects() {
                   alt="developer-image"
                 />
                                          <div className='w-full bg-grad-skills rounded-b-md rounded-t-sm pb-2 relative  mt-2  '>
-                  <h3 className='text-stone-100 font-medium text-xl border-b border-white border-solid text-center'>Movie Database </h3><hr/>
-                  <p className='text-stone-100 mt-2 p-2 font-normal'>Movie Database </p>
+                  <h3 className='text-stone-100 font-medium text-xl border-b border-white border-solid text-center'>Ice Cream Shop Landing Page </h3><hr/>
+                  <p className='text-stone-100 mt-2 p-2 font-normal'> </p>
                 </div>     
               </Link>
             </div>
