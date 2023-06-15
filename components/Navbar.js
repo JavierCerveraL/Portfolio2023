@@ -33,8 +33,8 @@ export default function Navbar() {
           className="cursor-pointer mr-4 hvr-icon left-2 relative object-contain text-neutral-200 pulse
           navbar-toggler "
           src={'/logo-no-background.svg'}
-          width={50}
-          height={50}
+          width={40}
+          height={40}
           onClick={() => setOpen(!open)}
         />
         </div>

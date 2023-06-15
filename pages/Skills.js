@@ -29,17 +29,17 @@ function Skills() {
       <Navbar />
       {/* Tools */}
       <div className="main-skills col-span-12 text-center mx-auto items-center justify-center">
-        <div className="py-8 lg:py-16 px-4    w-max h-auto  ">
-          <h2 className="text-3xl animate__animated animate__fadeInDown font-bold text-red-500 md:text-7xl javier pb-5   ">
+        <div className="py-8 lg:py-16 lg:px    w-max h-auto  ">
+          <h2 className="text-4xl animate__animated animate__fadeInDown font-bold text-red-500 md:text-7xl javier    relative right-12   ">
             Skills
           </h2>
           {/* skill box */}
           <div className="big-box md:flex  mt-10  ">
             {' '}
             {/* box 1 */}
-            <div className="grid md:grid-flow-col mx-16 shadow  bg-slate-300 animate__animated animate__fadeInTopLeft  mt-5 rounded-xl justify-center">
+            <div className="grid md:grid-flow-col mx-20  items-center shadow   relative right-10 bg-slate-300 animate__animated animate__fadeInTopLeft  mt-5 rounded-xl justify-center">
               {/* item list */}
-              <div className="sm:col-span-2  p-5 text-2xl lg:text-4xl md:text-4xl">
+              <div className="sm:col-span-2  p-3 text-2xl lg:text-4xl md:text-4xl">
                 {/* idv item */}
                 <div className="flex items-center justify-center ">
                   <h2>HTML5 </h2>
@@ -119,7 +119,7 @@ function Skills() {
             </div>
             {/* box1 */}
             {/* box2 */}
-            <div className="grid md:grid-flow-col mx-16 bg-slate-300 opacity-3 mt-5 rounded-xl justify-center animate__animated animate__fadeInTopRight">
+            <div className="grid md:grid-flow-col mx-20  relative right-10 bg-slate-300 opacity-3 mt-5 rounded-xl justify-center animate__animated animate__fadeInTopRight">
               {/* item list */}
               <div className="sm:col-span-2 p-10  text-2xl lg:text-4xl md:text-4xl">
                 {/* idv item */}
