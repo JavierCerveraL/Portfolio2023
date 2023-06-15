@@ -16,10 +16,10 @@ function Projects() {
       <Head>
         <title>Projects - JVRCVR</title>
       </Head>
-      <section className="flex justify-center gap- w-full bg-slate-900 " id="projects">
+      <section className="flex justify-center gap-2 w-full bg-slate-900 " id="projects">
         <Navbar />
         <div className="py-8 lg:py-6 px-4 md:px-2 mx-auto max-w-screen-md">
-          <h3 className="text-5xl animate__animated animate__fadeInDown font-bold text-red-500 md:text-6xl javier  pb-10 text-center ">
+          <h3 className="text-3xl lg:text-6xl animate__animated animate__fadeInDown font-bold text-red-500 md:text-6xl javier  pb-10 text-center ">
             Projects
           </h3>
 
@@ -100,7 +100,7 @@ function Projects() {
                 target="_blank"
               >
                 <Image
-                  src={web2}
+                  src={web6}
                   className=" rounded-lg object-cover   hover:scale-110 transition duration-300 ease-in-out"
                   width={'100%'}
                   height={'100%'}
@@ -119,7 +119,7 @@ function Projects() {
                 target="_blank"
               >
                 <Image
-                  src={web5}
+                  src={web2}
                   className=" rounded-lg object-cover   hover:scale-110 transition duration-300 ease-in-out"
                   width={'100%'}
                   height={'100%'}
