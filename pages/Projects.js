@@ -42,7 +42,7 @@ function Projects() {
             </div>
             <div className="grid md:grid-flow-col   animate__animated animate__fadeIn opacity-3 mt-5 rounded-xl w-60  lg:w-auto ">
               <Link
-                href="https://javiercerveral.github.io/sucre/"
+                href="https://notflixdb.netlify.app/"
                 target="_blank"
               >
                 <Image
@@ -60,7 +60,7 @@ function Projects() {
               </Link>
             </div>
             <div className="grid md:grid-flow-col   animate__animated animate__fadeIn opacity-3 mt-5 rounded-xl w-60 lg:w-auto">
-              <Link href="https://notflixdb.netlify.app/" target="_blank">
+              <Link href="https://tatilazobeauty.com/" target="_blank">
                 <Image
                   src={web3}
                   className=" rounded-lg object-cover   hover:scale-110 transition duration-300 ease-in-out"
@@ -77,7 +77,7 @@ function Projects() {
             </div>
             <div className="grid md:grid-flow-col  animate__animated animate__fadeIn opacity-3 mt-5 rounded-xl w-60 lg:w-auto ">
               <Link
-                href="https://tatilazobeauty.com/"
+                href="https://yasc-test.netlify.app/"
                 target="_blank"
               >
                 <Image
@@ -96,7 +96,7 @@ function Projects() {
             </div>
             <div className="grid md:grid-flow-col  animate__animated animate__fadeIn opacity-3 mt-5 rounded-xl w-60 lg:w-auto ">
               <Link
-                href="https://yasc-test.netlify.app/"
+                href="https://alejandromaldonado.netlify.app/"
                 target="_blank"
               >
                 <Image
@@ -115,7 +115,7 @@ function Projects() {
             </div>
             <div className="grid md:grid-flow-col  animate__animated animate__fadeIn opacity-3 mt-5 rounded-xl w-60 lg:w-auto ">
               <Link
-               href="https://alejandromaldonado.netlify.app/"
+               href="https://javiercerveral.github.io/sucre/"
                 target="_blank"
               >
                 <Image
