@@ -30,7 +30,7 @@ function Skills() {
       {/* Tools */}
       <div className="main-skills col-span-12 text-center mx-auto items-center justify-center">
         <div className="py-8 lg:py-16 lg:px    w-max h-auto  ">
-          <h2 className="text-4xl animate__animated animate__fadeInDown font-bold text-red-500 md:text-7xl javier    relative right-12   ">
+          <h2 className="text-xl animate__animated animate__fadeInDown font-bold text-red-500 md:text-7xl javier    relative right-12   ">
             Skills
           </h2>
           {/* skill box */}

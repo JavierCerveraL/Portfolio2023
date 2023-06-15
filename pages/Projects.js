@@ -19,7 +19,7 @@ function Projects() {
       <section className="flex justify-center gap-2 w-full bg-slate-900 " id="projects">
         <Navbar />
         <div className="py-8 lg:py-6 px-4 md:px-2 mx-auto max-w-screen-md">
-          <h3 className="text-3xl lg:text-6xl animate__animated animate__fadeInDown font-bold text-red-500 md:text-6xl javier  pb-10 text-center ">
+          <h3 className="text-xl lg:text-6xl animate__animated animate__fadeInDown font-bold text-red-500 md:text-6xl javier  pb-10 text-center ">
             Projects
           </h3>
 

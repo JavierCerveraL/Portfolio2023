@@ -11,7 +11,7 @@ function AboutMe() {
       <section className="flex gap-6 w-full bg-slate-900" id="me">
         <Navbar />
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-          <h3 className="text-5xl animate__animated animate__fadeInDown font-bold text-red-500 md:text-7xl javier pb-5 text-center  ">
+          <h3 className="text-xl animate__animated animate__fadeInDown font-bold text-red-500 md:text-7xl javier pb-5 text-center  ">
             About Me
           </h3>
           <div className="big-box md:flex  mt-5 ">

@@ -17,7 +17,7 @@ function Contact() {
 
         <section className="col-span-12  ">
           <div className="py-8 lg:py-16 px-5 pr-10 mx-auto max-w-screen-sm">
-            <h3 className="text-5xl animate__animated animate__fadeInDown font-bold text-red-500 md:text-6xl javier pb-5 lg:pb-10 text-center  ">
+            <h3 className="text-xl animate__animated animate__fadeInDown font-bold text-red-500 md:text-6xl javier pb-5 lg:pb-10 text-center  ">
               CONTACT ME
             </h3>
 
