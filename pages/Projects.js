@@ -36,7 +36,7 @@ function Projects() {
                 />
                 <div className='w-full bg-grad-skills rounded-b-md rounded-t-sm pb-2 relative  mt-2  '>
                   <h3 className='text-stone-100 font-medium text-xl border-b border-white border-solid text-center'>Article Summarizer </h3><hr/>
-                  <p className='text-stone-100 mt-2 p-2 font-normal'>Web application use to summarize websites. Use of React, RapidApi, Redux Toolkit. </p>
+                  <p className='text-stone-100 mt-2 p-2 font-normal'>Web application use to summarize websites. React, RapidApi, Redux Toolkit. </p>
                 </div>
               </Link>
             </div>
@@ -55,7 +55,7 @@ function Projects() {
                 />
                          <div className='w-full bg-grad-skills rounded-b-md rounded-t-sm pb-2 relative  mt-2  '>
                   <h3 className='text-stone-100 font-medium text-xl border-b border-white border-solid text-center'>Movie Database </h3><hr/>
-                  <p className='text-stone-100 mt-2 p-2 font-normal'>Movie Database </p>
+                  <p className='text-stone-100 mt-2 p-2 font-normal'>Netflix look a like, including synopsis and other info. React, TMDB API.</p>
                 </div>     
               </Link>
             </div>
@@ -71,7 +71,7 @@ function Projects() {
                 />
                                                 <div className='w-full bg-grad-skills rounded-b-md rounded-t-sm pb-2 relative  mt-2  '>
                   <h3 className='text-stone-100 font-medium text-xl border-b border-white border-solid text-center'>Beauty Services Website</h3><hr/>
-                  <p className='text-stone-100 mt-2 p-2 font-normal'>  </p>
+                  <p className='text-stone-100 mt-2 p-2 font-normal'> Classic static website, developing E-commerce. HTML5, Bootstrap, JavaScript.  </p>
                 </div>          
               </Link>
             </div>
@@ -90,7 +90,7 @@ function Projects() {
                 />
                                          <div className='w-full bg-grad-skills rounded-b-md rounded-t-sm pb-2 relative  mt-2  '>
                   <h3 className='text-stone-100 font-medium text-xl border-b border-white border-solid text-center'>Dashboard / Social Media App Front End </h3><hr/>
-                  <p className='text-stone-100 mt-2 p-2 font-normal'> </p>
+                  <p className='text-stone-100 mt-2 p-2 font-normal'>Employee dashboard, with login section and Google Maps API. Next.js, Tailwind, GoogleAPI, Firebase.</p>
                 </div>     
               </Link>
             </div>
@@ -109,7 +109,7 @@ function Projects() {
                 />
                                          <div className='w-full bg-grad-skills rounded-b-md rounded-t-sm pb-2 relative  mt-2  '>
                   <h3 className='text-stone-100 font-medium text-xl border-b border-white border-solid text-center'>Architecture Portfolio </h3><hr/>
-                  <p className='text-stone-100 mt-2 p-2 font-normal'> </p>
+                  <p className='text-stone-100 mt-2 p-2 font-normal'>Classic portfolio made with Next.js, Tailwind and Animate. </p>
                 </div>     
               </Link>
             </div>
@@ -128,7 +128,7 @@ function Projects() {
                 />
                                          <div className='w-full bg-grad-skills rounded-b-md rounded-t-sm pb-2 relative  mt-2  '>
                   <h3 className='text-stone-100 font-medium text-xl border-b border-white border-solid text-center'>Ice Cream Shop Landing Page </h3><hr/>
-                  <p className='text-stone-100 mt-2 p-2 font-normal'> </p>
+                  <p className='text-stone-100 mt-2 p-2 font-normal'> Static landing page for a Ice cream shop. HTML5, Bootstrap and other libraries. </p>
                 </div>     
               </Link>
             </div>
